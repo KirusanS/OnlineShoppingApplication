@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admininterface.SetInventory">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:id="@+id/linearLayoutInventory">
+
+
+        <TextView
+            android:id="@+id/txtTitleViewInventory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="View/Update Inventory"
+            android:textAlignment="center"
+            android:textColor="#F44336"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Current quantity shown in prompts"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txtHockeySticks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hockey Sticks" />
+
+        <EditText
+            android:id="@+id/txtHockeyInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hockey_stick_quantity"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/txtFishingRods"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fishing Rods" />
+
+        <EditText
+            android:id="@+id/txtFishingInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/fishing_rod_quantity"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/txtProteinBars"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protein Bars" />
+
+        <EditText
+            android:id="@+id/txtBarsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/protein_bar_quantity"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/txtRunningShoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Running Shoes" />
+
+        <EditText
+            android:id="@+id/txtShoesInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/running_shoes"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/txtSkates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Skates" />
+
+        <EditText
+            android:id="@+id/txtSkatesInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/skates_quantity"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/txtSubmitInventoryUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+
+    </LinearLayout>
+
+</RelativeLayout>

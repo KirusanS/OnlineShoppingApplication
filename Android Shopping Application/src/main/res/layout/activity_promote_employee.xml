@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admininterface.PromoteEmployee">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp"
+        android:id="@+id/linearLayout">
+
+
+        <TextView
+            android:id="@+id/txtPromoteEmployee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Promote Employee"
+            android:textColor="#F44336"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/txtMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input the following prompt:"
+            tools:text="Input the following prompt:" />
+
+        <EditText
+            android:id="@+id/editUserId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="User ID"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnSubmitPromote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Promote" />
+    </LinearLayout>
+
+
+</RelativeLayout>
